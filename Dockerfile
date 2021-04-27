@@ -5,7 +5,7 @@ ENV LANG C.UTF-8
 
 USER root
 
-COPY ./application.properties /opt/kkFileView-3.5.1/config/application.properties
+COPY ./application.properties /opt/kkFileView-3.5/config/application.properties
 
 RUN set -x; \
     apt update \
