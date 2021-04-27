@@ -1,4 +1,4 @@
-FROM keking/kkfileview:v3.5.1
+FROM keking/kkfileview:v3.5
 LABEL maintainer="liuye <1621963477@qq.com>"
 
 ENV LANG C.UTF-8
