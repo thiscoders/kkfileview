@@ -14,5 +14,5 @@ RUN set -x; \
     && apt update \
     && apt install libreoffice-common curl iproute2 vim tree  -y \
     && mkdir ~/backups \
-    && mv /opt/kkFileView-3.5.1/bin/kkFileView-3.5.1.jar ~/backups \
-    && curl -o /opt/kkFileView-3.5.1/bin/kkFileView-3.5.1.jar -sSL https://repo.rocketx.top/docker/kkFileView-3.5.1.jar
+    && mv /opt/kkFileView-3.5/bin/kkFileView-3.5.jar ~/backups \
+    && curl -o /opt/kkFileView-3.5/bin/kkFileView-3.5.jar -sSL https://repo.rocketx.top/docker/kkFileView-3.5.jar
